@@ -108,3 +108,113 @@ int main()
 	cout << endl;
 	return 0;
 }
+
+/*
+sakshee@sakshee-Vostro-3580:~/Data Structures$ ./a.out
+
+	Enter data for node(-1 if NULL) : 1
+
+	Enter left child of node 1 : 
+	Enter data for node(-1 if NULL) : 2
+
+	Enter left child of node 2 : 
+	Enter data for node(-1 if NULL) : 11
+
+	Enter left child of node 11 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 11 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 2 : 
+	Enter data for node(-1 if NULL) : 22
+
+	Enter left child of node 22 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 22 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 1 : 
+	Enter data for node(-1 if NULL) : 3
+
+	Enter left child of node 3 : 
+	Enter data for node(-1 if NULL) : 4
+
+	Enter left child of node 4 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 4 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 3 : 
+	Enter data for node(-1 if NULL) : 5
+
+	Enter left child of node 5 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 5 : 
+	Enter data for node(-1 if NULL) : -1
+
+	DEPTH OF GIVEN TREE : 2
+
+	BREADTH FIRST DISPLAY OF THE TREE : 
+
+	Level 1 :  1 
+	Level 2 :  2  3 
+	Level 3 :  11  22  4  5 
+
+OUTPUT 2 :-
+
+
+akshee@sakshee-Vostro-3580:~/Data Structures$ ./a.out
+
+	Enter data for node(-1 if NULL) : 5
+
+	Enter left child of node 5 : 
+	Enter data for node(-1 if NULL) : 7
+
+	Enter left child of node 7 : 
+	Enter data for node(-1 if NULL) : 2
+
+	Enter left child of node 2 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 2 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 7 : 
+	Enter data for node(-1 if NULL) : 22
+
+	Enter left child of node 22 : 
+	Enter data for node(-1 if NULL) : 33
+
+	Enter left child of node 33 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 33 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 22 : 
+	Enter data for node(-1 if NULL) : 55
+
+	Enter left child of node 55 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 55 : 
+	Enter data for node(-1 if NULL) : -1
+
+	Enter right child of node 5 : 
+	Enter data for node(-1 if NULL) : -1
+
+	DEPTH OF GIVEN TREE : 3
+
+	BREADTH FIRST DISPLAY OF THE TREE : 
+
+	Level 1 :  5 
+	Level 2 :  7 
+	Level 3 :  2  22 
+	Level 4 :  33  55 
+
+
+*/
